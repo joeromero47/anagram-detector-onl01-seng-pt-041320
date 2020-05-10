@@ -1,4 +1,4 @@
-# Your code goes here!
+require 'pry'
 class Anagram
   attr_reader :name
   
@@ -6,7 +6,7 @@ class Anagram
     @name = name
   end
   
-  def match(string)
-    
+  def match(arr)
+    binding.pry
   end
 end
