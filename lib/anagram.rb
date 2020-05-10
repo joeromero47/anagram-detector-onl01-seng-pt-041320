@@ -6,4 +6,4 @@ class Anagram
     @anagram = anagrams
   end
   
-  def 
+end
