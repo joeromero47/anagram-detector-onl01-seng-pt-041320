@@ -8,6 +8,6 @@ class Anagram
   
   def match(arr)
    
-    arr.keep_if.match {|str| str }
+    arr.keep_if {|str| name.split('').match }
   end
 end
