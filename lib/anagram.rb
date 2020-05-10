@@ -1,9 +1,9 @@
 # Your code goes here!
 class Anagram
-  attr_accessor :anagrams
+  attr_accessor :anagram
   
   def initialize(anagrams)
-    @anagrams = anagrams
+    @anagram = anagrams
   end
   
   def 
