@@ -8,6 +8,6 @@ class Anagram
   
   def match(arr)
    
-    arr.keep.if {|str| binding.pry }
+    arr.keep.if.match {|str| str }
   end
 end
