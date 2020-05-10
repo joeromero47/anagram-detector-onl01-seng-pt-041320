@@ -7,7 +7,6 @@ class Anagram
   end
   
   def match(arr)
-   
     arr.keep_if {|str| name.split('').match }
   end
 end
